@@ -1,0 +1,77 @@
+.jumbotron{
+	background-image: url(../images/baner03.JPG);
+	height: 16vw;
+	background-size: 100%;
+	border-radius: 10px;
+	margin-bottom: 2vw;
+
+}
+
+header{
+	position: relative;
+	display: block;
+	width: device-width;
+	height: 20vw;
+
+	padding: 10px;
+	overflow: hidden;
+}
+header img{
+	position: absolute;
+	left: 0px;
+	top: -200px;
+	width: 100vw;
+	height: 20vw;
+	opacity: 1;
+}
+header h1{
+	position: absolute;
+	top: 5%;
+	left: 50px;
+	color: #08A1F9;
+}
+header h2{
+	position: absolute;
+	top: 15%;
+	left: 70%;
+	color: #08A1F9;
+}
+
+nav a{display: inline-block;
+	background-color: rgba(70, 70, 70, 0.5);
+	color: #FFEC33;
+	text-decoration: none;
+	width: 13%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 30px;
+	box-shadow: 0px 0px 15px white inset;
+	transition: background-color: 0.5s;
+}
+nav a:hover{
+	background-color: rgba(211, 212, 194, 0.5);
+	color: #351AE7;
+	text-decoration: none;
+	box-shadow: 0px 0px 20px white;
+}
+body{
+	font-size: 20px;
+	background-color: #C2DDF9;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 0px auto;
+}
+aside{
+	float: right;
+	background-color: #C2DDF9;
+}
+aside img{
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+	border-radius:100px;
+}
+footer{
+	text-align: center;
+}

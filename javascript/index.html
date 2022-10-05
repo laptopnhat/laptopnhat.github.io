@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practice 1 </title>
+	<script>
+		var name = prompt("Please input your name:");
+	</script>
+
+</head>
+<body>
+	<script>
+		document.write("<h1> Hello, " + name + ". I am Linh, I will teach you how to do the statistic with R" +"</h1>")
+	</script>
+
+	<script> alert("Do you have R intalled on your computer?")</script>
+	<script> 
+		var x = 15;
+		var y = 20;
+		var z = x + y
+		document.write("<h2> x + y = " + z + "</h2>");
+
+	</script>
+
+	<script>
+		var height = prompt("How tall are you? (m)");
+		var weight = prompt("What is your weight? (kg)");
+		var bmi = weight / (height*height);
+	</script>
+
+	<script> 
+		document.write("Your BMI is " +  bmi.toFixed(3) +"<br>");
+	</script>
+
+	<script> 
+		if (name =="")
+			alert("Don't be shy!!!");
+		else("Helo, " + name);
+	</script>
+
+	<script>
+		var score = prompt("Please input your score:")
+	</script>
+	<script>
+		if (score >=90)
+			document.write("Your GPA grade is A" + "<br>");
+		else if(score>=80)
+			document.write("Your GPA grade is B"  + "<br>");
+		else if(score>=70)
+			document.write("Your GPA grade is C" + "<br>");
+		else if(score>=60)
+			document.write("Your GPA grade is D" + "<br>");
+		else
+			document.write("Your GPA grade is F" + "<br>");
+	</script>
+	<script>
+		if (bmi>24)
+			document.write("<h2 style='color: red;'>You should lose some weight!!</h2>");
+		else if(bmi<18.5)
+			document.write("You should eat more!!");
+		else if(bmi ="NaN")
+			document.write("We can not calculate BMI index for you!");
+		else document.write ("You are having a good weight! Keep it!!");
+	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+alert("Have you installed R on your computer?");

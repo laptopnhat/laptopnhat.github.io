@@ -1,0 +1,99 @@
+.baner{
+	background-image: url(../images/baner0.JPG);
+	height: 15vw;
+	background-size: 100%;
+	border-radius: 10px;
+	margin-bottom: 2vw;
+
+}
+.jumbotron1{
+	margin-top: 3vw;
+	margin-left: 10vw;
+	text-align: center;
+	display: inline-block;
+	color: #F3F311;
+	padding: 1vw;
+	background-color: rgba(10, 10, 10, 0.4);
+	border-style: solid;
+	border-color: #F3F311;
+	border-radius: 10px;
+	font-size: 3vw;
+}
+.jumbotronh2{
+	margin-top: 0.5vw;
+	margin-left: 35vw;
+	display: inline-block;
+	color: white;
+	font-size: 2vw;
+}
+header{
+	position: relative;
+	display: block;
+	width: device-width;
+	height: 400px;
+
+	padding: 10px;
+	overflow: hidden;
+}
+header img{
+	position: absolute;
+	left: 0px;
+	top: -200px;
+	width: 100%;
+	opacity: 1;
+}
+header h1{
+	position: absolute;
+	top: 5%;
+	left: 50px;
+}
+header h2{
+	position: absolute;
+	top: 5%;
+	left: 60%;
+}
+nav{
+	position: absolute;
+	top: 60%;
+	width: 100%;
+	text-align: center;
+
+}
+nav a{display: inline-block;
+	background-color: rgba(70, 70, 70, 0.5);
+	color: #FFEC33;
+	text-decoration: none;
+	width: 13%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 30px;
+	box-shadow: 0px 0px 15px white inset;
+	transition: background-color: 0.5s;
+}
+nav a:hover{
+	background-color: rgba(211, 212, 194, 0.5);
+	color: #351AE7;
+	text-decoration: none;
+	box-shadow: 0px 0px 20px white;
+}
+body{
+	font-size: 20px;
+	background-color: #C2DDF9;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 0px auto;
+}
+aside{
+	float: right;
+	background-color: #C2DDF9;
+}
+aside img{
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+	border-radius:100px;
+}
+footer{
+	text-align: center;
+}
